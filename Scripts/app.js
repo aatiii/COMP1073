@@ -2,13 +2,6 @@
 
 // setup your IIFE (Immediately Invoked Function Expression)
 (function () {
-
-
-
-
-    console.log("Hailun Li's Portfolio");
-    
-
     
     // declare an anoymous function with named alias
     var replaceFirstParagraph = function() {

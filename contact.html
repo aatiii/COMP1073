@@ -10,11 +10,10 @@
         <link rel="stylesheet" href="Content/css/font-awesome.min.css">
         <link rel="stylesheet" href="Content/app.css">
 		<title>Mini Portfolio</title>
-		<link href="css/style2.css" rel="stylesheet" type="text/css" />
+		<link href="Content/css/contact.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<header role="banner">
-			<h1>Contact Me</h1>
 			<nav role="navigation">
 		        <ul>
 			        <li><a href="index.html" title="home Page">Home</a></li>
@@ -25,10 +24,10 @@
 	        </nav>
 		</header>
 		<main role="main">
-			<ul>
+			<ul class="contact">
 				<!-- Social media links and contact information -->
-				<li><a href="https://www.facebook.com/helen.lee.5217462" title="facebookpage">Facebook</a></li>
-				<li><a title="email">helen_ati@163.com</a></li>
+				<li><small><a href="https://www.facebook.com/helen.lee.5217462" title="facebookpage">Facebook</a></small></li>
+				<li><small><a title="email">helen_ati@163.com</a></small></li>
             </ul>
             <form method="post">	
 				
@@ -36,7 +35,7 @@
 				<legend>Your Information</legend>
 					<div>
 						<label for="name">Name</label>
-						<input id="name" type="text" name="name" placeholder="First Name  Last Name" required />
+						<input id="name" type="text" name="name" required />
 					</div>
 					<div>
 						<label for="email">Email</label>
@@ -51,7 +50,7 @@
                 <p>Leave your message</p>
 				<textarea name="reivew" cols="50" rows="10"></textarea>
                 
-                <button type="submit"><a title="post and return to bio page" href="bio.html">Post</a></button>
+                <p><button type="submit"><a title="post and return to bio page" href="bio.html">Post</a></button></p>
 				
 			</form>
 		</main>
