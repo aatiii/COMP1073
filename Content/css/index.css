@@ -24,27 +24,17 @@ main ul {
 }
 
 body{
-	font: 150%/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font: 125%/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 2em;
 	color: #333;
-	text-align: center;
-	/*background-color: white;*/
-    background-image: url(../paper-texture.jpg);
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(../paper-texture.jpg);
     background-attachment: fixed;
-	width: 960px;
-    margin: 0 auto;
-}
-
-h1, h2, h3 {
-	font-family: Impact, Charcoal, sans-serif;
+	
 	text-align: center;
-	color: darkslategrey;
 }
 
-p {
-    
-    margin: 2em 5em;
-    padding: auto 5em;
-    text-align: left;
+img {
+    margin: 5em auto;
 }
-

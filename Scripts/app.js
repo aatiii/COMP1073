@@ -1,53 +1,28 @@
 "use strict";
 
-// setup your IIFE (Immediately Invoked Function Expression)
-(function () {
-    
-    // declare an anoymous function with named alias
-    var replaceFirstParagraph = function() {
-        console.log("inside replaceFirstParagraph function");
-        
-        var firstParagraph;
-
-        firstParagraph = document.getElementById("firstParagraph");
-        firstParagraph.innerHTML = "blah blah blah";
-    }
-    
-        // text on bio page
-    var replaceBio = function() {
-        console.log("inside replaceBio function");
-        
-        var bio;
-
-        bio = document.getElementById("bio");
-        bio.innerHTML = "about me blah blah blah";
-    }
-    
-    // call the function
-    replaceBio();    
-    
-    // call the replaceFirstParagraph function
-    replaceFirstParagraph();
-    
-    
-})();
+// setup IIFE
 
 
 (function () {
    
-    // text on bio page
+    
     var replaceBio = function() {
-        console.log("inside replaceBio function");
-        
+        // declare variable
         var bio;
 
         bio = document.getElementById("bio");
-        bio.innerHTML = "about me blah blah blah";
+        bio.innerHTML = "I'm Hailun Li, an international student studying Web design and development. " +
+        " This is my fourth year in Ontario, Canada. " +
+        " I was previously studying Cognitive science and Computer science. I have some experience"+
+        " with programming languages such as python, java, html, php, etc";
     }
     
-    // call the function
+    // execute the function
     replaceBio();    
     
 })();
+
+
+
 
 
