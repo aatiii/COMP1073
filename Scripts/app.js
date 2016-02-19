@@ -5,11 +5,32 @@
 "use strict";
 
 // setup IIFE
-
-
 (function () {
    
+    if (document.getElementById("homepage") != null) {
+        console.log("Home page");
+    }   else if (document.getElementById("biopage") != null) {
+        console.log("Bio page");
+    }   else if (document.getElementById("contactpage") != null) {
+        console.log("Contact page");
+        // declare variables
+        var name = document.getElementById("name");
+        var email = document.getElementById("email");
+        var phone = document.getElementById("phone");
+        var comments = document.getElementById("comments")
+        var contactSubmit = document.getElementById("contactSubmit");
+        contactSubmit.pre 
+        // output values to the console
+        contactSubmit.addEventListener("click", function(event){
+            event.preventDefault();
+            console.log("Name: " + name.value);
+            console.log("Email: " + email.value);
+            console.log("Tel: " + phone.value);
+            console.log("Messages: " + comments.value);
+        }); // end of addEventListener function
+    }   // end of contactpage else if
     
+    // text replacement on bio page
     var replaceBio = function() {
         // declare variable
         var bio;
