@@ -1,3 +1,8 @@
+/*style.css was created by Hailun Li for COMP1073 assignment 1, 
+ a mini portfolio web project. This file contains stylings 
+ of project page, project.html*/
+
+/*navigation*/
 nav li {
 	display: inline-block;
 	width: 150px;
@@ -34,7 +39,7 @@ body{
 	width: 960px;
     margin: 0 auto;
 }
-
+/*headings*/
 h1, h2, h3 {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;

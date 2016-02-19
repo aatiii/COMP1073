@@ -1,3 +1,7 @@
+// app.js was created by Hailun Li for COMP1073 assignment 1, 
+//  a mini portfolio web project. This file contains JavaScript
+//  functions that replace texts on bio page.
+
 "use strict";
 
 // setup IIFE

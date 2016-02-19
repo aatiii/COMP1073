@@ -1,3 +1,7 @@
+// project.js was created by Hailun Li for COMP1073 assignment 1, 
+//  a mini portfolio web project. This file contains JavaScript
+//  functions that replace texts on project page.
+
 "use strict";
 
 // project 1 text replacement

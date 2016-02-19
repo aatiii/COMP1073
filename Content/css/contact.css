@@ -1,3 +1,8 @@
+/*contact.css was created by Hailun Li for COMP1073 assignment 1, 
+ a mini portfolio web project. This file contains stylings of 
+ the contact page, contact.html*/
+
+/*navigation*/
 nav li {
 	display: inline-block;
 	width: 150px;
@@ -35,6 +40,7 @@ body{
     background-attachment: fixed;
 	text-align: center;
 }
+/*form*/
 fieldset {
 	margin: 2em auto;
 }
